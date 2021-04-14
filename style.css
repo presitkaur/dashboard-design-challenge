@@ -203,3 +203,13 @@ img{
     font-size: 16px;
     padding: 16px 32px;
 }
+
+.table{
+    font-size: 15px; 
+    border-top-color: white !important;
+}
+
+tr {
+    color: rgb(184, 184, 189);
+    background-color:rgb(52, 52, 58)
+}
