@@ -9,7 +9,7 @@ p {
     padding-top: 10px;
 }
 
-h3, h5 {
+h1, h3, h5 {
     padding-top: 25px;
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
@@ -37,7 +37,7 @@ ul > li {
 }
 
 .navbar{
-    max-height: 70px;
+    max-height: 70px;     
     background-color: rgb(106, 54, 163, 1);
     font-size: 14px;
     color: black;
@@ -59,7 +59,7 @@ ul > li {
 }
 
 .active, .dropdown-menu .dropdown-item:active a:hover{
-    background-color:  rgb(145, 93, 201) !important;
+    background-color:  white;
 }
 
 .dropdown-item{
@@ -68,6 +68,11 @@ ul > li {
 
 .dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover{
     background-color:#E7E7E7 !important; 
+}
+
+.dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu{
+    background-color: rgb(192, 148, 236);
+    color: rgb(192, 148, 236)
 }
 
 .display-img{
